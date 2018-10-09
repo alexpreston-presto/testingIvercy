@@ -1,0 +1,264 @@
+Version =21
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =6994
+    DatasheetFontHeight =11
+    ItemSuffix =9
+    Right =19335
+    Bottom =12885
+    DatasheetGridlinesColor =15062992
+    RecSrcDt = Begin
+        0xb7dcc19fcf2ee540
+    End
+    RecordSource ="SELECT tbl1.field1, tbl1.field2, tbl2.field1 FROM tbl1 INNER JOIN tbl2 ON tbl1.I"
+        "D = tbl2.tbl1_ID; "
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    DatasheetBackColor12 =-2147483643
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =16053492
+    DatasheetGridlinesColor12 =15062992
+    FitToScreen =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            ForeThemeColorIndex =2
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BackColor =-2147483633
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            Height =5952
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2607
+                    Top =623
+                    Height =315
+                    BorderColor =13553360
+                    ForeColor =3484194
+                    Name ="Text0"
+                    ControlSource ="tbl1.field1"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2607
+                    LayoutCachedTop =623
+                    LayoutCachedWidth =4308
+                    LayoutCachedHeight =938
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =906
+                            Top =623
+                            Width =645
+                            Height =315
+                            BorderColor =16777215
+                            ForeColor =11573124
+                            Name ="Label1"
+                            Caption ="Text0:"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =906
+                            LayoutCachedTop =623
+                            LayoutCachedWidth =1551
+                            LayoutCachedHeight =938
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2607
+                    Top =1058
+                    Height =315
+                    TabIndex =1
+                    BorderColor =13553360
+                    ForeColor =3484194
+                    Name ="Text2"
+                    ControlSource ="field2"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2607
+                    LayoutCachedTop =1058
+                    LayoutCachedWidth =4308
+                    LayoutCachedHeight =1373
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =906
+                            Top =1058
+                            Width =645
+                            Height =315
+                            BorderColor =16777215
+                            ForeColor =11573124
+                            Name ="Label3"
+                            Caption ="Text0:"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =906
+                            LayoutCachedTop =1058
+                            LayoutCachedWidth =1551
+                            LayoutCachedHeight =1373
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2607
+                    Top =1493
+                    Height =315
+                    TabIndex =2
+                    BorderColor =13553360
+                    ForeColor =3484194
+                    Name ="Text4"
+                    ControlSource ="tbl2.field1"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2607
+                    LayoutCachedTop =1493
+                    LayoutCachedWidth =4308
+                    LayoutCachedHeight =1808
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =906
+                            Top =1493
+                            Width =645
+                            Height =315
+                            BorderColor =16777215
+                            ForeColor =11573124
+                            Name ="Label5"
+                            Caption ="Text0:"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =906
+                            LayoutCachedTop =1493
+                            LayoutCachedWidth =1551
+                            LayoutCachedHeight =1808
+                        End
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =1920
+                    Top =2955
+                    Width =2280
+                    Height =285
+                    BorderColor =16777215
+                    ForeColor =11573124
+                    Name ="Label6"
+                    Caption ="added this label 1:57pm"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1920
+                    LayoutCachedTop =2955
+                    LayoutCachedWidth =4200
+                    LayoutCachedHeight =3240
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =1920
+                    Top =3360
+                    Width =2280
+                    Height =285
+                    BorderColor =16777215
+                    ForeColor =11573124
+                    Name ="Label7"
+                    Caption ="added this label 2:14pm"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1920
+                    LayoutCachedTop =3360
+                    LayoutCachedWidth =4200
+                    LayoutCachedHeight =3645
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4251
+                    Top =4195
+                    Width =1476
+                    Height =336
+                    TabIndex =3
+                    ForeColor =3484194
+                    Name ="cmdHello"
+                    Caption ="say Hello"
+                    OnClick ="[Event Procedure]"
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Find Next"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4251
+                    LayoutCachedTop =4195
+                    LayoutCachedWidth =5727
+                    LayoutCachedHeight =4531
+                    BorderColor =13553360
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+
+Private Sub cmdHello_Click()
+    MsgBox ("Hello")
+End Sub
