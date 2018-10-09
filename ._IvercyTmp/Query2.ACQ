@@ -8,6 +8,7 @@ Begin OutputColumns
     Expression ="tbl2.field1"
     Expression ="tbl1.field1"
     Expression ="tbl1.field2"
+    Expression ="tbl1.ID"
 End
 Begin Joins
     LeftTable ="tbl2"
@@ -37,17 +38,21 @@ Begin
         dbText "Name" ="tbl1.field2"
         dbLong "AggregateType" ="-1"
     End
+    Begin
+        dbText "Name" ="tbl1.ID"
+        dbLong "AggregateType" ="-1"
+    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1223
+    Right =824
     Bottom =584
     Left =-1
     Top =-1
     Right =808
-    Bottom =339
+    Bottom =322
     Left =0
     Top =0
     ColumnsShown =539
