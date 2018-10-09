@@ -229,7 +229,7 @@ Begin Form
                     TabIndex =3
                     ForeColor =3484194
                     Name ="cmdHello"
-                    Caption ="say Hello"
+                    Caption ="say Goodbye"
                     OnClick ="[Event Procedure]"
                     ObjectPalette = Begin
                         0x000301000000000000000000
