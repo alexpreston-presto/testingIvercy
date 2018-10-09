@@ -1,0 +1,7 @@
+Option Compare Database
+
+Public Function getDay(Optional dteDate As Date = Now()) As String
+
+    getDay = Day(dteDate)
+
+End Function
