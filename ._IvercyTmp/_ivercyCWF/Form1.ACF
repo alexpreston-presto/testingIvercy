@@ -229,11 +229,7 @@ Begin Form
                     TabIndex =3
                     ForeColor =3484194
                     Name ="cmdHello"
-<<<<<<< HEAD
                     Caption ="say Hello"
-=======
-                    Caption ="say Goodbye"
->>>>>>> origin/feature/addadummyreport
                     OnClick ="[Event Procedure]"
                     ObjectPalette = Begin
                         0x000301000000000000000000
