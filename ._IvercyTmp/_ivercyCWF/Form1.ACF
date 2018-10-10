@@ -10,13 +10,8 @@ Begin Form
     Width =6994
     DatasheetFontHeight =11
     ItemSuffix =9
-<<<<<<< HEAD
-    Right =19335
-    Bottom =12885
-=======
     Right =12105
     Bottom =8505
->>>>>>> 4901778dbbf3750043e9a54cdf8b973ca83d3b2a
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
         0xb7dcc19fcf2ee540
@@ -24,8 +19,6 @@ Begin Form
     RecordSource ="SELECT tbl1.field1, tbl1.field2, tbl2.field1 FROM tbl1 INNER JOIN tbl2 ON tbl1.I"
         "D = tbl2.tbl1_ID; "
     DatasheetFontName ="Calibri"
-<<<<<<< HEAD
-=======
     PrtMip = Begin
         0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
         0x010000006801000000000000a10700000100000001000000
@@ -89,7 +82,6 @@ Begin Form
         0x0800190025000100000000000000000000000000000000000000000000000000 ,
         0x000000000055534230303100
     End
->>>>>>> 4901778dbbf3750043e9a54cdf8b973ca83d3b2a
     FilterOnLoad =0
     DatasheetBackColor12 =-2147483643
     ShowPageMargins =0
@@ -97,8 +89,6 @@ Begin Form
     DatasheetAlternateBackColor =16053492
     DatasheetGridlinesColor12 =15062992
     FitToScreen =1
-<<<<<<< HEAD
-=======
     PrtDevModeW = Begin
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -161,7 +151,6 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x00005500530042003000300031000000
     End
->>>>>>> 4901778dbbf3750043e9a54cdf8b973ca83d3b2a
     Begin
         Begin Label
             BackStyle =0
@@ -360,13 +349,8 @@ Begin Form
                     OverlapFlags =85
                     Left =4251
                     Top =4195
-<<<<<<< HEAD
-                    Width =1476
-                    Height =336
-=======
                     Width =2046
                     Height =561
->>>>>>> 4901778dbbf3750043e9a54cdf8b973ca83d3b2a
                     TabIndex =3
                     ForeColor =3484194
                     Name ="cmdHello"
@@ -380,13 +364,8 @@ Begin Form
 
                     LayoutCachedLeft =4251
                     LayoutCachedTop =4195
-<<<<<<< HEAD
-                    LayoutCachedWidth =5727
-                    LayoutCachedHeight =4531
-=======
                     LayoutCachedWidth =6297
                     LayoutCachedHeight =4756
->>>>>>> 4901778dbbf3750043e9a54cdf8b973ca83d3b2a
                     BorderColor =13553360
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
