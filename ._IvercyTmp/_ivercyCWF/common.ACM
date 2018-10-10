@@ -1,0 +1,20 @@
+Option Compare Database
+
+Public Function getDay(Optional dteDate As Date = Now()) As String
+
+    getDay = Day(dteDate)
+
+End Function
+
+Public Function getMonth(Optional dteDate As Date = Now()) As String
+
+    getMonth = Month(dteDate)
+
+End Function
+
+Public Function getYear(Optional dteDate As Date = Now()) As String
+
+    'added this Weds 11:42
+    getYear = Year(dteDate)
+
+End Function

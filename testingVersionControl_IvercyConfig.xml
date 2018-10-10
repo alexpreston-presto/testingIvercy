@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MssccApiConfig>
+    <UserName />
+    <ProjectName>.</ProjectName>
+    <LocalProjPath>\\presto.local\Filing\Users\ParkSt\alex.preston\Documents\GitHub\feature-2newqueries</LocalProjPath>
+    <LocalProjWorkingDir>\\presto.local\Filing\Users\ParkSt\alex.preston\Documents\GitHub\feature-2newqueries\._IvercyTmp</LocalProjWorkingDir>
+    <AuxProjPath />
+    <SccProviderLibrary>C:\Program Files (x86)\Pushok Software\GITSCC\sccapi.dll</SccProviderLibrary>
+  </MssccApiConfig>
+  <VersionLastSaved>1.2.4.0</VersionLastSaved>
+  <InvalidObjectNameCharacters>:;,&gt;&lt;\/*|"</InvalidObjectNameCharacters>
+  <UseUpperCaseFileExtensions>Yes</UseUpperCaseFileExtensions>
+  <StatusUpdatesInBackground>None</StatusUpdatesInBackground>
+  <MergeByDefaultOnConflicts>No</MergeByDefaultOnConflicts>
+  <SourceProcessingSettings>
+    <SourceProcessingSetting>
+      <Action>Block_Remove</Action>
+      <Name>Form+Report block removes</Name>
+      <ForFileRegexp>.*\.AC(F|R)</ForFileRegexp>
+      <SourceMatchRegexps>
+        <string>NameMap</string>
+        <string>GUID</string>
+      </SourceMatchRegexps>
+    </SourceProcessingSetting>
+    <SourceProcessingSetting>
+      <Action>Line_Remove</Action>
+      <Name>Form+Report Line Removes</Name>
+      <ForFileRegexp>.*\.AC(F|R)</ForFileRegexp>
+      <SourceMatchRegexps>
+        <string>^Checksum =\S</string>
+        <string>NoSaveCTIWhenDisabled =1</string>
+      </SourceMatchRegexps>
+    </SourceProcessingSetting>
+  </SourceProcessingSettings>
+  <SendSHIFTOnOpenAccessFile>No</SendSHIFTOnOpenAccessFile>
+  <QuerySccStatusBeforeEachOperation>No</QuerySccStatusBeforeEachOperation>
+  <AllowRenameOfCheckedOutObjects>No</AllowRenameOfCheckedOutObjects>
+  <MergeProgram />
+  <MergeCommandline />
+</Configuration>

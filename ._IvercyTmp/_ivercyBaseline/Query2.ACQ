@@ -1,0 +1,77 @@
+Operation =1
+Option =0
+Begin InputTables
+    Name ="tbl2"
+    Name ="tbl1"
+End
+Begin OutputColumns
+    Expression ="tbl2.field1"
+    Expression ="tbl1.field1"
+    Expression ="tbl1.field2"
+    Expression ="tbl1.ID"
+End
+Begin Joins
+    LeftTable ="tbl2"
+    RightTable ="tbl1"
+    Expression ="tbl2.tbl1_ID = tbl1.ID"
+    Flag =1
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+Begin
+    Begin
+        dbText "Name" ="tbl2.field1"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tbl1.field1"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tbl1.field2"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="tbl1.ID"
+        dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =0
+    Right =824
+    Bottom =584
+    Left =-1
+    Top =-1
+    Right =808
+    Bottom =322
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =48
+        Top =12
+        Right =192
+        Bottom =156
+        Top =0
+        Name ="tbl2"
+        Name =""
+    End
+    Begin
+        Left =240
+        Top =12
+        Right =384
+        Bottom =156
+        Top =0
+        Name ="tbl1"
+        Name =""
+    End
+End
